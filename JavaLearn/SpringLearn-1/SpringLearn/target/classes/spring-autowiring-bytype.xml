@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+default-autowire="byType">
+    <!--上面设置了-->
+
+    <bean id="autoWiringService" class="com.learn.spring.autowiring.AutoWiringService" ></bean>
+   <!--这里autoWiringDAO_alais和AutoWiringService的public void setAutoWiringDAO(AutoWiringDAO autoWiringDAO)不一致-->
+    <bean id="autoWiringDAO_alais"  class="com.learn.spring.autowiring.AutoWiringDAO" ></bean>
+
+</beans>
