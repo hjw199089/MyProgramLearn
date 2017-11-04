@@ -29,6 +29,4 @@ public class TestInjectionCons extends UnitTestBase {
             InjectionService service = super.getBean("injectionService");
             service.save("这是要保存的数据");
         }
-
-
 }

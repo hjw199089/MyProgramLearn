@@ -28,13 +28,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.meituan.cis</groupId>
-      <artifactId>fetch-client</artifactId>
-      <version>0.2.8</version>
-    </dependency>
-
-
-    <dependency>
       <groupId>org.apache.thrift</groupId>
       <artifactId>libthrift</artifactId>
       <version>0.9.2</version>
