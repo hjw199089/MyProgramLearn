@@ -1,0 +1,6 @@
+这是一个简单注入的学习测试
+建立一个接口和实现
+建立一个pring配置文件(resources-spring-ioc-interfaces),将oneInterface对象注入
+在测试类基类test.base.UnitTestBase中设置ClassPathXmlApplicationContext和启动context
+在具体的测试类中test.ioc.interefaces.TestOneInterface中
+直接通过getBean方法得到一个OneInterface对象赋值给oneInterface

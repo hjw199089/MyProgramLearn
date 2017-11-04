@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="injectionService" class="com.learn.spring.ioc.injection.service.InjectionServiceImpl">
+       <!--注意直接值注意InjectionServiceImpl必须有空构造方法-->
+        <property name="injectionDAO" ref="injectionDAO"></property>
+    </bean>
+
+    <bean id="injectionDAO" class="com.learn.spring.ioc.injection.dao.InjectionDAOImpl"></bean>
+
+</beans>
